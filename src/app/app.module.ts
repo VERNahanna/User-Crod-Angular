@@ -4,18 +4,15 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 // used to create fake backend
-import { fakeBackendProvider } from './_helpers';
+import { fakeBackendProvider } from './helpers';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AlertComponent } from './_components';
+import { AlertComponent } from './components';
 import { LayoutComponent } from './users/layout.component';
 import { ListComponent } from './users/list.component';
 import { AddEditComponent } from './users/add-edit.component';
 import { CommonModule } from '@angular/common';;
-
-
-
 
 
 @NgModule({

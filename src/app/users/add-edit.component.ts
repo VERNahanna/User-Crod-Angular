@@ -4,7 +4,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { first } from 'rxjs/operators';
 
 import { UserService, AlertService } from '@app/_services';
-import { MustMatch } from '@app/_helpers';
+import { MustMatch } from '@app/helpers';
 
 @Component({
 
